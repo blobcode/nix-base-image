@@ -26,7 +26,7 @@
 
   # allow root to use blob's ssh key
   users.users.root.openssh.authorizedKeys.keys =
-    config.users.users.blob.openssh.authorizedKeys.keys;
+    config.users.users.blobcode.openssh.authorizedKeys.keys;
 
   # enable ssh
   services.openssh = {
